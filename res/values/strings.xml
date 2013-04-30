@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Learn and Speak French</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ib_cd_vocab">French Vocabulary</string>
+    <string name="ib_cd_grammar">French Grammar</string>
+    <string name="ib_cd_verbs">French Verb Conjugations</string>
+    <string name="ib_cd_phrases">French Phrases</string>
+
+</resources>
