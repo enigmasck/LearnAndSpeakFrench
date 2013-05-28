@@ -8,5 +8,7 @@
     <string name="ib_cd_grammar">French Grammar</string>
     <string name="ib_cd_verbs">French Verb Conjugations</string>
     <string name="ib_cd_phrases">French Phrases</string>
+    <string name="ib_cd_convo">French Conversations</string>
+    <string name="ib_cd_tests">Tests</string>
 
 </resources>
