@@ -41,9 +41,15 @@ public class MainActivity extends Activity implements OnClickListener {
     }
     
     public void startVocabMenu(View v){
-    	Intent vocabMenuIntent = new Intent(this, VocabMenuActivity.class);
-    	startActivity(intent);
+    	Intent vocabMenuIntent = new Intent(this, VocabActivity.class);
+    	startActivity(vocabMenuIntent);
     }
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	
 	

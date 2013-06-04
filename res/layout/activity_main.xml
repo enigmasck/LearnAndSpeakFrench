@@ -13,17 +13,8 @@
         android:layout_alignTop="@+id/ib_vocab"
         android:layout_marginRight="50dp"
         android:contentDescription="@string/ib_cd_grammar"
+        android:onClick="startGrammarMenu"
         android:src="@drawable/lsf_grammar" />
-
-    <ImageButton
-        android:id="@+id/ib_verbs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ib_vocab"
-        android:layout_below="@+id/ib_vocab"
-        android:layout_marginTop="41dp"
-        android:contentDescription="@string/ib_cd_verbs"
-        android:src="@drawable/lsf_verbs" />
 
     <ImageButton
         android:id="@+id/ib_vocab"
@@ -34,6 +25,7 @@
         android:layout_marginTop="33dp"
         android:layout_toLeftOf="@+id/ib_grammar"
         android:contentDescription="@string/ib_cd_vocab"
+        android:onClick="startVocabMenu"
         android:src="@drawable/lsf_vocab" />
 
     <ImageButton
@@ -43,6 +35,7 @@
         android:layout_alignTop="@+id/ib_verbs"
         android:layout_toRightOf="@+id/ib_vocab"
         android:contentDescription="@string/ib_cd_phrases"
+        android:onClick="startPhrasesMenu"
         android:src="@drawable/lsf_phrases" />
 
     <ImageButton
@@ -53,6 +46,7 @@
         android:layout_below="@+id/ib_verbs"
         android:layout_marginTop="54dp"
         android:contentDescription="@string/ib_cd_convo"
+        android:onClick="startConvoMenu"
         android:src="@drawable/ib_convo" />
 
     <ImageButton
@@ -62,6 +56,17 @@
         android:layout_alignLeft="@+id/ib_phrases"
         android:layout_alignTop="@+id/ib_convo"
         android:contentDescription="@string/ib_cd_tests"
+        android:onClick="startTestMenu"
         android:src="@drawable/ib_tests" />
+
+    <ImageButton
+        android:id="@+id/ib_verbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ib_vocab"
+        android:layout_below="@+id/ib_vocab"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/ib_cd_verbs"
+        android:src="@drawable/lsf_verbs" />
 
 </RelativeLayout>
